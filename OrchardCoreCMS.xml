@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/OrchardCMS/OrchardCore</Project>
-  <Overview>This app installs Orchard Core CMS official docker image to Unraid.
+  <Overview>Orchard Core CMS is official docker image to Unraid.
 You can use the app as a blog engine as-is. Developers should visit the github. Orchard Core is fully extensible .net core C# framework.
 Documentation: https://docs.orchardcore.net/en/latest/ 
 Quick-start: After installing the container, open the WebUI to finalize the setup.
@@ -30,7 +30,7 @@ If you want to start over, stop the container, go to /mnt/user/appdata/orchardco
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Description>This app installs Orchard Core CMS official docker image to Unraid.
+  <Description>Orchard Core CMS is official docker image to Unraid.
 You can use the app as a blog engine as-is. Developers should visit the github. Orchard Core is fully extensible .net core C# framework.
 Documentation: https://docs.orchardcore.net/en/latest/ 
 Quick-start: After installing the container, open the WebUI to finalize the setup.
