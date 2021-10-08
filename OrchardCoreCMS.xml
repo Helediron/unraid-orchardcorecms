@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>OrchardCoreCMS</Name>
+  <Repository>orchardproject/orchardcore-cms-linux:latest</Repository>
+  <Registry>https://registry.hub.docker.com/r/orchardproject/orchardcore-cms-linux</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/OrchardCMS/OrchardCore</Project>
+  <Overview>This app installs Orchard Core CMS official docker image to Unraid.&#xD;
+After installing the container, open the WebUI to finalize the setup.&#xD;
+Notes: The administrator password has to be complex enough. Otherwise you get error: please enter the required format. When the bar under it turns green it's okay.&#xD;
+Some templates hide admin dashboard. Append /Admin to your URL to access it. &#xD;
+http://your-address:port/Admin</Overview>
+  <Category>Productivity: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL/>
+  <Icon>https://avatars.githubusercontent.com/u/1159247?s=100</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1633719787</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Description>This app installs Orchard Core CMS official docker image to Unraid.&#xD;
+After installing the container, open the WebUI to finalize the setup.&#xD;
+Notes: The administrator password has to be complex enough. Otherwise you get error: please enter the required format. When the bar under it turns green it's okay.&#xD;
+Some templates hide admin dashboard. Append /Admin to your URL to access it. &#xD;
+http://your-address:port/Admin</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9080</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/orchardcorecms/App_Data</HostDir>
+      <ContainerDir>/app/App_Data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Appdata" Target="/app/App_Data" Default="/mnt/user/appdata/orchardcorecms/App_Data" Mode="rw" Description="Path to application's data." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/orchardcorecms/App_Data</Config>
+  <Config Name="WebUI" Target="80" Default="9080" Mode="tcp" Description="WebUI port" Type="Port" Display="always" Required="false" Mask="false">9080</Config>
+</Container>
