@@ -2,7 +2,7 @@
 
 ## Template description
 
-This app installs Orchard Core CMS official docker image to Unraid.
+Orchard Core CMS is official docker image to Unraid.
 You can use the app as a blog engine as-is. Developers should visit the github. Orchard Core is fully extensible .net core C# framework.
 Documentation: https://docs.orchardcore.net/en/latest/ 
 
