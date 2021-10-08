@@ -9,11 +9,12 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/OrchardCMS/OrchardCore</Project>
-  <Overview>This app installs Orchard Core CMS official docker image to Unraid.&#xD;
-After installing the container, open the WebUI to finalize the setup.&#xD;
-Notes: The administrator password has to be complex enough. Otherwise you get error: please enter the required format. When the bar under it turns green it's okay.&#xD;
+  <Overview>This app installs Orchard Core CMS official docker image to Unraid.
+After installing the container, open the WebUI to finalize the setup.
+Notes: The administrator password has to be complex enough. Otherwise you get error: please enter the required format. When the bar under it turns green it's okay.
 Some templates hide admin dashboard. Append /Admin to your URL to access it, like http://your-address:port/Admin .
-If you want to start over with the container, stop the container, go to /mnt/user/appdata/orchardcorecms in Unraid server and remove folder App_Data and everything under it.</Overview>
+After the initial setup, go to the /Admin dashboard, settings, features. Either click individual Enable buttons, or tick multiple and select Bulk Actions/Enable.
+If you want to start over, stop the container, go to /mnt/user/appdata/orchardcorecms in Unraid server and remove folder App_Data and everything under it.</Overview>
   <Category>Productivity: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Helediron/unraid-orchardcorecms/main/OrchardCoreCMS.xml</TemplateURL>
@@ -25,11 +26,12 @@ If you want to start over with the container, stop the container, go to /mnt/use
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Description>This app installs Orchard Core CMS official docker image to Unraid.&#xD;
-After installing the container, open the WebUI to finalize the setup.&#xD;
-Notes: The administrator password has to be complex enough. Otherwise you get error: please enter the required format. When the bar under it turns green it's okay.&#xD;
+  <Description>This app installs Orchard Core CMS official docker image to Unraid.
+After installing the container, open the WebUI to finalize the setup.
+Notes: The administrator password has to be complex enough. Otherwise you get error: please enter the required format. When the bar under it turns green it's okay.
 Some templates hide admin dashboard. Append /Admin to your URL to access it, like http://your-address:port/Admin .
-If you want to start over with the container, stop the container, go to /mnt/user/appdata/orchardcorecms in Unraid server and remove folder App_Data and everything under it.</Description>
+After the initial setup, go to the /Admin dashboard, settings, features. Either click individual Enable buttons, or tick multiple and select Bulk Actions/Enable.
+If you want to start over, stop the container, go to /mnt/user/appdata/orchardcorecms in Unraid server and remove folder App_Data and everything under it.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
