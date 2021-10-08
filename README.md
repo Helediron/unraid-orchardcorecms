@@ -11,4 +11,5 @@ Quick-start: After installing the container, open the WebUI to finalize the setu
 - Fill admin username, email and password. The password has to be complex enough. When the bar under it turns green it's okay.
 - Save and let it create the site.
 - Append /Admin to your URL to access admin dashboard .
+
 If you want to start over, stop the container, go to /mnt/user/appdata/orchardcorecms in Unraid server and remove folder App_Data and everything under it.
